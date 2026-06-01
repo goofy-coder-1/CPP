@@ -1,6 +1,7 @@
-# Ignore all compiled executable files
-*.exe
+# Ignore absolutely everything
+*
 
-
-*.out
-*.o
+# But DO NOT ignore these specific files/folders:
+!.gitignore
+!*.cpp
+!*.h
