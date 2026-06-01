@@ -1,7 +1,0 @@
-# Ignore absolutely everything
-*
-
-# But DO NOT ignore these specific files/folders:
-!.gitignore
-!*.cpp
-!*.h
