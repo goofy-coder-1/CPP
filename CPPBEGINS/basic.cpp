@@ -19,7 +19,7 @@ int main() {
     bool isStudent = true;             // Holds either true (1) or false (0) (1 byte)
 
 
-    // ---- Displaying the values and their memory sizes ----
+    // ---- Displaying the values and their memory sizes ---
     std::cout << "--- C++ Data Types & Sizes ---" << std::endl;
     
     std::cout << "int: " << age << " (" << sizeof(int) << " bytes)" << std::endl;
