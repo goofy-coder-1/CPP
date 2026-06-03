@@ -2,6 +2,7 @@
 
 int main() {
     char letter = 'A';
-    std::cout << (int)letter; // Outputs: 65
+    std::cout << (int)letter; 
+    
     return 0;
 }
