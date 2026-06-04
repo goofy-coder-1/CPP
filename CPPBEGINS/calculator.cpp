@@ -8,13 +8,13 @@ int main(){
     int number_second;
     double result;
 
-    std::cout << "Enter first Number: ";
+    std::cout << "Enter pahilo Number: ";
     std::cin >> number_first;
 
     std::cout << "Operation(+ - / *): ";
     std::cin >> choice;
 
-    std::cout << "Enter second number: ";
+    std::cout << "Enter dosro number: ";
     std::cin >> number_second;
 
     switch (choice)
