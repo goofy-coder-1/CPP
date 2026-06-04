@@ -10,7 +10,7 @@ int main() {
     }
     cout << "\n";
    }
-   // Breezy
+   // Breezy dai ko code
    
    return 0;
 }
