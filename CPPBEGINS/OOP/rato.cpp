@@ -1,19 +1,21 @@
 #include <iostream>
+#include<string>
+
 
 class rato
 {
 public:
     int myNm;
-    bool isBoy;
+    std::string brand;
 };
 
 int main() {
     rato myObj;
 
     myObj.myNm = 15;
-    myObj.isBoy = true;
+    myObj.brand = "true";
 
     std::cout << myObj.myNm << '\n';
-    std::cout << myObj.isBoy <<'\n';
+    std::cout << myObj.brand <<'\n';
 
 }
