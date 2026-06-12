@@ -21,7 +21,7 @@ public:
 };
 
 int main() {
-    Pin firstguy;  // comment third
+    Pin firstguy;  
     
     
     firstguy.setPin(1234); 
