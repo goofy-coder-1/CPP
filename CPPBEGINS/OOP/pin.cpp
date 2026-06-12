@@ -16,7 +16,7 @@ public:
 
    
     int getPin() {
-        return pin; // random second
+        return pin; 
     }
 };
 
