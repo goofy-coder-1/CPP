@@ -10,7 +10,7 @@ public:
     int age;
 
    
-    void setPin(int p) { // random
+    void setPin(int p) { 
         pin = p;
     }
 
