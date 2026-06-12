@@ -29,7 +29,7 @@ int main() {
     firstguy.account = 321456;
     firstguy.age = 20;
     
-    cout << "Pin is: " << firstguy.getPin() << endl;
+    cout << "Pin is: " << firstguy.getPin() << endl; // comment third
     cout << "Age is: " << firstguy.age << endl;
     
     return 0;
