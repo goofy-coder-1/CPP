@@ -43,9 +43,16 @@ void fifa::displayTeam()
 // --- HOW TO USE IT IN YOUR MAIN PROGRAM ---
 int main()
 {
-    
+    string team;
+    cout << "Enter Team name: ";
+    cin >> team;
+
+    float rating;
+    cout << "Team Rating: ";
+    cin >> rating;
+
     // Creating an object using your class format
-    fifa myTeam("Barcelona",10);
+    fifa myTeam(team,rating);
 
     // Calling a method on that object
     myTeam.displayTeam();
