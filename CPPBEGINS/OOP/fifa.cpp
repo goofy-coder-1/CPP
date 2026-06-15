@@ -42,7 +42,7 @@ int main()
 
     fifa myTeam(team, rating);
 
-    // 1. Convert the class data into a JSON object
+    
     json teamJson = myTeam.toJson();
 
     // 2. Open a file stream for writing ("output file stream")
