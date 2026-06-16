@@ -48,7 +48,7 @@ int main()
     // 2. Open a file stream for writing ("output file stream")
     ofstream outputFile("team_data.json");
 
-    // 3. Check if the file opened successfull
+    // 3. Check if the file opened successfully
     if (outputFile.is_open()) {
         // Pipe the prettified JSON (4 spaces) directly into the file
         outputFile << teamJson.dump(4);
