@@ -16,6 +16,6 @@ class MyGrandChild: public MyChild {};
 
 int main() {
     MyGrandChild myObj;
-    myObj.myFunction();
+    myObj.myFunction(); // calling 
     return 0;
 }
