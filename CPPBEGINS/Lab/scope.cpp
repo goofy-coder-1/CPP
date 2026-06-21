@@ -16,5 +16,5 @@ int main() {
     cout << "x = " << x << endl;
     cout << "y = " << y << endl;
 
-    return 0; // sc
+    return 0; // s
 }
