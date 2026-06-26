@@ -26,3 +26,13 @@ class thermoStat {
         
     }
 };
+
+int main() {
+    thermoStat livingRoom(70);
+
+    cout << livingRoom.getTemperature() << "F \n";
+
+    livingRoom.setTemperature(75);
+
+    livingRoom.setTemperature(115);
+}
