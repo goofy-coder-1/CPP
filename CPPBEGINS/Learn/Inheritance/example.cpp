@@ -21,7 +21,7 @@ class thermoStat {
             targetTemperature = newTemp;
             cout << "Temperature set to " << targetTemperature << "F \n";
         } else {
-            cout << newTemp << "is outside of safe operating limit";
+            cout << newTemp << " is outside of safe operating limit \n";
         }
         
     }
