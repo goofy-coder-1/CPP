@@ -20,10 +20,35 @@ public:
     }  
    }
 
-   void humanDetail() {
-    cout << "Human name is " << name << endl;
-    cout << "Human age is " << age << endl;
+    virtual void displayDetails() {
+    cout << "I am a parent " << endl;
+    cout << "My name is " << name << endl;
+    cout << "My age is " << age << endl;
    }
+};
+
+class humanChild : public Human {
+  private:
+    string childName;
+    int childAge;
+  public:
+    humanChild(string humanChildName, int humanChildAge): Human(humanChildName, humanChildAge) {
+        childName = humanChildName;
+
+        if (humanChildAge >= 0)
+        {
+            childAge = humanChildAge;
+        } else
+        {
+            cout << "This is not valid";
+        }   
+    }
+    void displayDetails() override {
+        cout << "I am a child" << endl;
+        cout << "Name: " << childName << endl;
+        cout << "Age: " << childAge << endl;
+    }
+
 };
 
 int main() {
@@ -39,5 +64,9 @@ int main() {
 
 
     Human myHuman(name, age);
-    myHuman.humanDetail();
+    myHuman.displayDetails();
+
+    humanChild myChild("Goku", 25);
+    myChild.displayDetails();
+    return 0;
 }
