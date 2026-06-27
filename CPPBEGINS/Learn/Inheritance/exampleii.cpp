@@ -37,6 +37,7 @@ int main() {
     cout << "Enter age: ";
     cin >> age;
 
-    
+
     Human myHuman(name, age);
+    myHuman.humanDetail();
 }
