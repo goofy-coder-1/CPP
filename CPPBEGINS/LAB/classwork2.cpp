@@ -19,7 +19,7 @@ class Sub : public Super{
 };
 
 int main() {
-    cout << "Super class reference and Super class object" << endl;
+    cout << "Super class reference & Super class object" << endl;
     Super obj1;
     Super& ref1 = obj1;
     cout << "x = " << ref1.x << endl;
