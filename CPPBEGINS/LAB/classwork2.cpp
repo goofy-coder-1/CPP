@@ -31,7 +31,7 @@ int main() {
     cout << "x = " << ref2.x << endl;
     ref2.displayValue();
 
-    cout << "\nSub class reference and Super class object" << endl;
+    cout << "\nSub class reference & Super class object" << endl;
     Super obj3;
     Sub& ref3 = (Sub&) obj3;    // type casting reference (for demonstration only)
     cout << "x = " << ref3.x << endl;
