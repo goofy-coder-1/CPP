@@ -25,7 +25,7 @@ int main() {
     cout << "x = " << ref1.x << endl;
     ref1.displayValue();
 
-    cout << "\nSuper class reference and Sub class object" << endl;
+    cout << "\nSuper class reference & Sub class object" << endl;
     Sub obj2;
     Super& ref2 = obj2;
     cout << "x = " << ref2.x << endl;
